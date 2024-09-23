@@ -5575,11 +5575,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/angeldaughtry/Documents/SI_MIS333K/SI_ModelPractice1/SI_ModelPractice1/SI_ModelPractice1.csproj",
+      "projectUniqueName": "/Users/angeldaughtry/Documents/GitHub/FA2024SIDemos/SI_ModelPractice1/SI_ModelPractice1/SI_ModelPractice1.csproj",
       "projectName": "SI_ModelPractice1",
-      "projectPath": "/Users/angeldaughtry/Documents/SI_MIS333K/SI_ModelPractice1/SI_ModelPractice1/SI_ModelPractice1.csproj",
+      "projectPath": "/Users/angeldaughtry/Documents/GitHub/FA2024SIDemos/SI_ModelPractice1/SI_ModelPractice1/SI_ModelPractice1.csproj",
       "packagesPath": "/Users/angeldaughtry/.nuget/packages/",
-      "outputPath": "/Users/angeldaughtry/Documents/SI_MIS333K/SI_ModelPractice1/SI_ModelPractice1/obj/",
+      "outputPath": "/Users/angeldaughtry/Documents/GitHub/FA2024SIDemos/SI_ModelPractice1/SI_ModelPractice1/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/angeldaughtry/.nuget/NuGet/NuGet.Config"
@@ -5600,11 +5600,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {

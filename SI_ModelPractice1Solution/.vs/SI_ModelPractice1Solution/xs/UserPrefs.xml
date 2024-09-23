@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{D39F50D3-A14E-4B78-90B0-52BC0B08D7E9}|http">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SI_ModelPractice1Solution/Views/Home/Index.cshtml">
+    <Files>
+      <File FileName="SI_ModelPractice1Solution/Models/RentalProperty.cs" />
+      <File FileName="SI_ModelPractice1Solution/Controllers/HomeController.cs" />
+      <File FileName="SI_ModelPractice1Solution/Views/_ViewImports.cshtml" />
+      <File FileName="SI_ModelPractice1Solution/Views/_ViewStart.cshtml" />
+      <File FileName="SI_ModelPractice1Solution/Program.cs" />
+      <File FileName="SI_ModelPractice1Solution/Views/Home/Index.cshtml" Line="50" Column="7" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SI_ModelPractice1Solution" expanded="True">
+            <Node name="SI_ModelPractice1Solution">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.SI__ModelPractice1Solution PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

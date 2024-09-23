@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6Zg5axbJQnQkXULBm9OwgEmM7dSwWcJtdi/kt7BLA7ri6llvCk0oyAk8uYOS/PeBYMryOpgOFv4I0idctNxsUQ==",
+  "dgSpecHash": "TuRHVb/FONbgVG1zv1nj3dDYZkqRh6YjeArOj92WpaA3LUsHoqu/UjRVVHjPJ943cn322dwV7Op+WYsunikJtQ==",
   "success": true,
-  "projectFilePath": "/Users/angeldaughtry/Documents/SI_MIS333K/SI_ModelPractice1/SI_ModelPractice1/SI_ModelPractice1.csproj",
+  "projectFilePath": "/Users/angeldaughtry/Documents/GitHub/FA2024SIDemos/SI_ModelPractice1/SI_ModelPractice1/SI_ModelPractice1.csproj",
   "expectedPackageFiles": [
     "/Users/angeldaughtry/.nuget/packages/humanizer/2.14.1/humanizer.2.14.1.nupkg.sha512",
     "/Users/angeldaughtry/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
