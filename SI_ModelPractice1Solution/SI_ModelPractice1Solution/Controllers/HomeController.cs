@@ -15,12 +15,12 @@ namespace SI_ModelPractice1Solution.Controllers
             //TODO: Create a new instance of the rental property class
             RentalProperty rentalProperty = new RentalProperty();
 
-            //TODO: Set the properties of the object
+            //TODO: Set the properties of the
             rentalProperty.RentalPropertyID = 1234;
             rentalProperty.RentalPropertyName = "Jester West";
             rentalProperty.MonthlyRent = 1200;
             rentalProperty.LeaseTermInMonths = 12;
-
+            rentalProperty.calcTotalLeaseCost();
 
             //TODO: Update the return statement to include the object
             return View(rentalProperty);

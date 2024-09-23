@@ -14,7 +14,9 @@ namespace SI_ModelPractice1.Controllers
         {
             //TODO: Create a new instance of the rental property class
 
-            //TODO: Set the properties of the object
+            //TODO: Set the properties of the
+
+            //TODO: calculate the total lease cost
 
             //TODO: Update the return statement to include the object
             return View();
