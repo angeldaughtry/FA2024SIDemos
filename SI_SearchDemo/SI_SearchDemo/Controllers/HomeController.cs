@@ -1,6 +1,6 @@
 ﻿using System;
 using Microsoft.AspNetCore.Mvc;
-using SI_SerchDemo.DAL;
+using SI_SearchDemo.DAL;
 using SI_SearchDemo.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc.Rendering; //for selectlist
