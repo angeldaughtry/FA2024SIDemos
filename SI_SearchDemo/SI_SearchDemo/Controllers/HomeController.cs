@@ -4,7 +4,6 @@ using SI_SearchDemo.DAL;
 using SI_SearchDemo.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Mvc.Rendering; //for selectlist
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace SI_SearchDemo.Controllers
 {

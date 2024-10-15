@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{16C6F0DD-3B4A-410B-98F0-10363AE1AE9A}|http">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Models/ViewModels/MusicianSearchViewModel.cs">
+    <Files>
+      <File FileName="Controllers/HomeController.cs" />
+      <File FileName="Controllers/MusiciansController.cs" Line="64" Column="30" />
+      <File FileName="Models/ViewModels/MusicianSearchViewModel.cs" Line="15" Column="40" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SI_SearchDemo">
+            <Node name="SI_SearchDemo">
+              <Node name="Models" expanded="True">
+                <Node name="ViewModels" expanded="True">
+                  <Node name="MusicianSearchViewModel.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.SI__SearchDemo PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+</Properties>

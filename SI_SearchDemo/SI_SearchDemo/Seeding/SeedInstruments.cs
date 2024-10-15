@@ -11,6 +11,15 @@ namespace SI_SearchDemo.Seeding
     {
         public static void SeedAllInstruments(AppDbContext db)
         {
+            // check to see if all the genres have already been added
+            if (db.Instruments.Count() == 25)
+            {
+                //exit the program - we don't need to do any of this
+                NotSupportedException ex = new NotSupportedException("Instrument record count is already 25!");
+                throw ex;
+            }
+            Int32 intInstrumentsAdded = 0; // for debugging purposes
+
             // Create a new list for all the instruments
             List<Instrument> AllInstruments = new List<Instrument>();
 
@@ -171,27 +180,30 @@ namespace SI_SearchDemo.Seeding
             // Loop through the list to add or update the instruments
             try
             {
-                foreach (Instrument seedInstrument in AllInstruments)
+                foreach (Instrument instrumentToAdd in AllInstruments)
                 {
                     // Update the counter
-                    strInstrumentName = seedInstrument.Name;
+                    strInstrumentName = instrumentToAdd.Name;
 
                     // Check if the instrument is already in the database
-                    Instrument dbInstrument = db.Instruments.FirstOrDefault(i => i.Name == seedInstrument.Name);
+                    Instrument dbInstrument = db.Instruments.FirstOrDefault(i => i.Name == instrumentToAdd.Name);
 
                     // If instrument is null, it's not in the database
                     if (dbInstrument == null)
                     {
                         // Add the instrument to the database
-                        db.Instruments.Add(seedInstrument);
+                        db.Instruments.Add(instrumentToAdd);
                         db.SaveChanges();
+                        intInstrumentsAdded += 1;
                       
                     }
                     else // If instrument exists, update fields
                     {
-                        dbInstrument.Name = seedInstrument.Name;
-                        dbInstrument.InstrumentType = seedInstrument.InstrumentType;
+                        dbInstrument.Name = instrumentToAdd.Name;
+                        dbInstrument.InstrumentType = instrumentToAdd.InstrumentType;
+                        db.Update(dbInstrument);
                         db.SaveChanges();
+                        intInstrumentsAdded += 1;
                     }
                 }
             }

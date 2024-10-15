@@ -1,13 +1,13 @@
 using System;
 using System.Collections.Generic;
-using System.Drawing.Printing;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
 using SI_SearchDemo.DAL;
 using SI_SearchDemo.Models;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Mvc.Rendering; //for selectlist
+
 
 namespace SI_Search.Controllers
 {
@@ -52,7 +52,16 @@ namespace SI_Search.Controllers
             return View(musician);
         }
 
-        
+        //TODO: Create Detailed Search Method
+        // Set Default Values
+
+        //TODO: Create Display Search Results Method
+        // Searches:
+        // Name - text
+        // Age - numeric + enum
+        // Instrument - Instrument object
+
+        //TODO: Create method to retrieve Instruments from the DB
         
     }
 }

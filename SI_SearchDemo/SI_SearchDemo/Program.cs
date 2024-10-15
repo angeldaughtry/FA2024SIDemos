@@ -4,7 +4,6 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI;
 
-//TODO: Update these namespaces to match your project name 
 //Be sure to remove the []
 using SI_SearchDemo.DAL;
 using SI_SearchDemo.Models;
@@ -15,8 +14,8 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-//TODO: Add database on Azure so you have a connection string
-//TODO: Add a connection string here once you have created it on Azure
+//TODO: To continue practicing with this demo, create your own DB and add the connection string here,
+// migrate then seed the data
 String connectionString = "Server=tcp:fa24-si-search-demo.database.windows.net,1433;Initial Catalog=SI_Search_Demo;Persist Security Info=False;User ID=MISAdmin;Password=Password123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
 
 //NOTE: This tells your application how to get a connection to the database
