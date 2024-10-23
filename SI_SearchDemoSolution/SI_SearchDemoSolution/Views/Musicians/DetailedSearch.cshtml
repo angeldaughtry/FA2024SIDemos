@@ -1,0 +1,45 @@
+@model SI_SearchDemoSolution.Models.MusicianSearchViewModel
+
+@{
+    ViewData["Title"] = "DetailedSearch";
+}
+
+<h1>DetailedSearch</h1>
+
+<h4>MusicianSearchViewModel</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="DisplaySearchResults">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="SelectedName" class="control-label"></label>
+                <input asp-for="SelectedName" class="form-control" />
+                <span asp-validation-for="SelectedName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SelectedAgeRange" class="control-label"></label>
+                <input type="radio" class="radio" asp-for="SelectedAgeRange" value="@AgeRange.LessThan" checked="checked" /> Less Than
+                <input type="radio" class="radio" asp-for="SelectedAgeRange" value="@AgeRange.GreaterThan" /> Greater Than
+            </div>
+            <div class="form-group">
+                <label asp-for="SelectedAge" class="control-label"></label>
+                <input asp-for="SelectedAge" class="form-control" />
+                <span asp-validation-for="SelectedAge" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SelectedInstrumentId" class="control-label"></label>
+                @Html.DropDownListFor(model => model.SelectedInstrumentId, (SelectList)ViewBag.AllInstruments, new { @class = "form-control" })
+                <span asp-validation-for="SelectedInstrumentId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Search" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
