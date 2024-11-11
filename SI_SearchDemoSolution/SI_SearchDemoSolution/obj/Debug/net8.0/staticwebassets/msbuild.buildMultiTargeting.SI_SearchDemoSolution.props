@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/SI_SearchDemoSolution.props" />
+</Project>

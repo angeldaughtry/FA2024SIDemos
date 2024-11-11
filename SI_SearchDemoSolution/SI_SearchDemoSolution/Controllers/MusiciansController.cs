@@ -30,7 +30,7 @@ namespace SI_SearchDemoSolution.Controllers
             // this logic technically only makes sense if you add quick search functionality
 
             ViewBag.SelectedMusicians = _context.Musicians.Count();
-            return View(await _context.Musicians.Include(m => m.Instrument).ToListAsync());
+            return View(await _context.Musicians.ToListAsync());
         }
 
             // GET: Musicians/Details/5
@@ -110,7 +110,7 @@ namespace SI_SearchDemoSolution.Controllers
 
 
             //execute the query
-            List<Musician> SelectedMusicians = query.OrderBy(m => m.Name).Include(m => m.Instrument).ToList();
+            List<Musician> SelectedMusicians = query.OrderBy(m => m.Name).ToList();
 
             //Populate the view bag with a count of all musicians 
             ViewBag.AllMusicians = _context.Musicians.Count();

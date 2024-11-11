@@ -1,0 +1,99 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = SI_SearchDemoSolution
+build_property.RootNamespace = SI_SearchDemoSolution
+build_property.ProjectDir = /Users/angeldaughtry/Documents/GitHub/FA2024SIDemos/SI_SearchDemoSolution/SI_SearchDemoSolution/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/angeldaughtry/Documents/GitHub/FA2024SIDemos/SI_SearchDemoSolution/SI_SearchDemoSolution
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/angeldaughtry/Documents/GitHub/FA2024SIDemos/SI_SearchDemoSolution/SI_SearchDemoSolution/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angeldaughtry/Documents/GitHub/FA2024SIDemos/SI_SearchDemoSolution/SI_SearchDemoSolution/Views/Instruments/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSW5zdHJ1bWVudHMvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angeldaughtry/Documents/GitHub/FA2024SIDemos/SI_SearchDemoSolution/SI_SearchDemoSolution/Views/Instruments/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSW5zdHJ1bWVudHMvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angeldaughtry/Documents/GitHub/FA2024SIDemos/SI_SearchDemoSolution/SI_SearchDemoSolution/Views/Instruments/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSW5zdHJ1bWVudHMvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angeldaughtry/Documents/GitHub/FA2024SIDemos/SI_SearchDemoSolution/SI_SearchDemoSolution/Views/Instruments/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSW5zdHJ1bWVudHMvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angeldaughtry/Documents/GitHub/FA2024SIDemos/SI_SearchDemoSolution/SI_SearchDemoSolution/Views/Instruments/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSW5zdHJ1bWVudHMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angeldaughtry/Documents/GitHub/FA2024SIDemos/SI_SearchDemoSolution/SI_SearchDemoSolution/Views/Musicians/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTXVzaWNpYW5zL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angeldaughtry/Documents/GitHub/FA2024SIDemos/SI_SearchDemoSolution/SI_SearchDemoSolution/Views/Musicians/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTXVzaWNpYW5zL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angeldaughtry/Documents/GitHub/FA2024SIDemos/SI_SearchDemoSolution/SI_SearchDemoSolution/Views/Musicians/DetailedSearch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTXVzaWNpYW5zL0RldGFpbGVkU2VhcmNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angeldaughtry/Documents/GitHub/FA2024SIDemos/SI_SearchDemoSolution/SI_SearchDemoSolution/Views/Musicians/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTXVzaWNpYW5zL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angeldaughtry/Documents/GitHub/FA2024SIDemos/SI_SearchDemoSolution/SI_SearchDemoSolution/Views/Musicians/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTXVzaWNpYW5zL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angeldaughtry/Documents/GitHub/FA2024SIDemos/SI_SearchDemoSolution/SI_SearchDemoSolution/Views/Musicians/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTXVzaWNpYW5zL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angeldaughtry/Documents/GitHub/FA2024SIDemos/SI_SearchDemoSolution/SI_SearchDemoSolution/Views/Seed/Confirm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2VlZC9Db25maXJtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angeldaughtry/Documents/GitHub/FA2024SIDemos/SI_SearchDemoSolution/SI_SearchDemoSolution/Views/Seed/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2VlZC9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angeldaughtry/Documents/GitHub/FA2024SIDemos/SI_SearchDemoSolution/SI_SearchDemoSolution/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angeldaughtry/Documents/GitHub/FA2024SIDemos/SI_SearchDemoSolution/SI_SearchDemoSolution/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angeldaughtry/Documents/GitHub/FA2024SIDemos/SI_SearchDemoSolution/SI_SearchDemoSolution/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/angeldaughtry/Documents/GitHub/FA2024SIDemos/SI_SearchDemoSolution/SI_SearchDemoSolution/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
