@@ -18,7 +18,7 @@ namespace SI_ModelPractice1Solution.Controllers
             //TODO: Set the properties of the
             rentalProperty.RentalPropertyID = 1234;
             rentalProperty.RentalPropertyName = "Jester West";
-            rentalProperty.MonthlyRent = 1200;
+            rentalProperty.MonthlyRent = 1201;
             rentalProperty.LeaseTermInMonths = 12;
             rentalProperty.calcTotalLeaseCost();
 

@@ -1,36 +1,48 @@
 ﻿<Properties StartupConfiguration="{FB70B5FB-0929-4063-B9FE-50B28038FC3A}|http">
+  <MonoDevelop.Ide.ItemProperties.SI__SearchDemoSolution PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.SI__SearchDemoSolution PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="SI_SearchDemoSolution/Controllers/MusiciansController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SI_SearchDemoSolution/Program.cs">
     <Files>
-      <File FileName="SI_SearchDemoSolution/Program.cs" Line="8" Column="36" />
-      <File FileName="SI_SearchDemoSolution/Seeding/SeedInstruments.cs" Line="1" Column="1" />
+      <File FileName="SI_SearchDemoSolution/Program.cs" Line="18" Column="174" />
+      <File FileName="SI_SearchDemoSolution/Seeding/SeedInstruments.cs" />
       <File FileName="SI_SearchDemoSolution/Controllers/HomeController.cs" Line="1" Column="1" />
       <File FileName="SI_SearchDemoSolution/Controllers/InstrumentsController.cs" Line="1" Column="1" />
-      <File FileName="SI_SearchDemoSolution/Controllers/MusiciansController.cs" Line="33" Column="49" />
-      <File FileName="SI_SearchDemoSolution/Views/Musicians/Index.cshtml" Line="34" Column="18" />
-      <File FileName="SI_SearchDemoSolution/Views/Instruments/Index.cshtml" Line="36" Column="1" />
+      <File FileName="SI_SearchDemoSolution/Controllers/MusiciansController.cs" Line="122" Column="53" />
+      <File FileName="SI_SearchDemoSolution/Views/Musicians/Index.cshtml" />
+      <File FileName="SI_SearchDemoSolution/Views/Instruments/Index.cshtml" />
+      <File FileName="SI_SearchDemoSolution/Models/AppUser.cs" />
+      <File FileName="SI_SearchDemoSolution/Models/Instrument.cs" />
+      <File FileName="SI_SearchDemoSolution/Models/Musician.cs" />
+      <File FileName="SI_SearchDemoSolution/DAL/AppDbContext.cs" Line="26" Column="6" />
+      <File FileName="SI_SearchDemoSolution/Views/Musicians/Details.cshtml" />
+      <File FileName="SI_SearchDemoSolution/Seeding/SeedMusicians.cs" />
+      <File FileName="SI_SearchDemoSolution/Models/ViewModels/MusicianSearchViewModel.cs" Line="24" Column="1" />
+      <File FileName="SI_SearchDemoSolution/Views/Musicians/DetailedSearch.cshtml" Line="33" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="SI_SearchDemoSolution">
+          <Node name="SI_SearchDemoSolution" expanded="True">
             <Node name="SI_SearchDemoSolution">
-              <Node name="Controllers" expanded="True">
-                <Node name="MusiciansController.cs" selected="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="DAL" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="ViewModels" expanded="True" />
               </Node>
+              <Node name="Seeding" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Musicians" expanded="True" />
               </Node>
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
 </Properties>
