@@ -22,7 +22,12 @@
         <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Age)
         </dd>
-<!--TODO: ADD NAVIGATIONAL PROPERTIES-->
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Instrument.Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Instrument.Name)
+        </dd>
     </dl>
 </div>
 <div>
